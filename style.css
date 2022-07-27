@@ -27,7 +27,7 @@ header {
     justify-content: center;
 }
 
-hi {
+#hi {
     font-size: 72px;
 }
 
@@ -69,4 +69,38 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*
+
+About 
+
+*/
+
+#about {
+    padding: 48px 0;
+}
+
+#h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__image--wrapper {
+    width: 40%;
+}
+
+image {
+    width: 40%;
+}
+
+.section__description--wrapper {
+
 }
