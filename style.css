@@ -79,6 +79,7 @@ About
 
 #about {
     padding: 48px 0;
+    background-color: #f8ffdc;
 }
 
 #h2 {
@@ -101,6 +102,15 @@ image {
     width: 40%;
 }
 
+.about__image--wrapper,
 .section__description--wrapper {
+    padding: 0 24px;
+}
 
+
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
 }
