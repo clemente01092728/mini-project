@@ -33,7 +33,7 @@ header {
     padding: 0;
 }
 
-#h1 {
+h1 {
     font-size: 72px;
 }
 
@@ -78,6 +78,19 @@ li {
     justify-content: center;
 }
 
+.home-image__container,
+.about-image__container,
+.discord-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.home-image, 
+.about-image,
+.discord-image {
+    width: 100%;
+}
+
 #About,
 #Discord,
 #Contact, 
@@ -107,17 +120,13 @@ About
     align-items: center;
 }
 
-.about__image--wrapper {
-    width: 10%;
+.about-image__container {
+    margin: 0 auto;
 }
 
-image {
-    width: 30%;
-}
-
-.about__image--wrapper,
-.section__description--wrapper {
-    padding: 0 24px;
+.section__description--wrapper,
+.about-image__container {
+    padding: 0 20px;
 }
 
 
